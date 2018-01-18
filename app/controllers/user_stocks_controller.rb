@@ -18,4 +18,5 @@ class UserStocksController < ApplicationController
     flash[:notice] = "Stock was successfully removed"
     redirect_to my_portfolio_path
   end
+
 end
